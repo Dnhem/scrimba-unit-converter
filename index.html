@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Unit Converter</title>
+</head>
+<body>
+  <div class="container">
+    <div class="bg-container">
+      <div class="background">
+        <h1 class="heading">Metric/Imperial unit conversion</h1>
+        <form action="#">
+          <input type="number" class="number-input" placeholder="Enter number">
+          <input type="submit" class="submit" value="⚖️">
+        </form>
+      </div>
+    </div>
+    <div class="result-container">
+      <p><strong>Length (Meter/Feet)</strong></p>
+      <p><span class="base-metric">0</span> meters = <span id="meters-to-feet">0.000</span> feet | <span class="base-metric">0</span> feet = <span id="feet-to-meters">0.000</span> meters</p>
+      <hr>
+      <p><strong>Volume (Liters/Gallons)</strong></p>
+      <p><span class="base-metric">0</span> liters = <span id="liters-to-gallons">0.000 gallons</span> | <span class="base-metric">0</span> gallons = <span id="gallons-to-liters">0.000</span> liters</p>
+      <hr>
+      <p><strong>Mass (Kilograms/Pounds)</strong></p>
+      <p><span class="base-metric">0</span> kilos = <span id="kg-to-lb">0.000</span> pounds | <span class="base-metric">0</span> pounds = <span id="lb-to-kg">0.000</span> kilos</p>
+      
+    </div>
+  </div>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap');
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  background-color: rgb(22, 18, 18);
+}
+
+.heading {
+  font-weight: 400;
+}
+
+.container {
+  padding: 70px 0;
+}
+
+.bg-container {
+  border: 1px solid black;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 650px;
+  height: 300px;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 25px;
+  background-image: linear-gradient(
+    0deg,
+    hsl(251deg 100% 20%) 0%,
+    hsl(320deg 100% 30%) 34%,
+    hsl(347deg 83% 52%) 54%,
+    hsl(30deg 100% 55%) 67%,
+    hsl(55deg 100% 50%) 76%,
+    hsl(45deg 100% 50%) 81%,
+    hsl(35deg 100% 50%) 86%,
+    hsl(23deg 100% 50%) 91%,
+    hsl(0deg 100% 50%) 100%
+  );
+}
+
+.result-container {
+  border: 1px solid blue;
+  background-color: #fff;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: 650px;
+  margin: auto;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 200;
+  line-height: 50px;
+}
+
+.number-input {
+  width: 250px;
+  font-size: 32px;
+  margin-top: 50px;
+  border-radius: 10px;
+  padding: 16px;
+}
+
+.submit {
+  margin-left: 15px;
+  font-size: 40px;
+  border-radius: 15px;
+  cursor: pointer;
+}
